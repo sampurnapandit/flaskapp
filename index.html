@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eagle-Eye</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+
+
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="Team">
+                <h1>Eagle-Eye</h1>
+            </div>
+            <ul class="title">
+                <li> <a href="index01.html">Home</a></li>
+                <li> <a href="index02.html">Address</a></li>
+                <li><a href="index03.html">Report</a></li>
+                <li><a href="index04.html">Attack</a></li>
+            </ul>
+
+
+            <div class="IP-address">
+                <h2><b> Insert IP Adress </b></h2>
+                <input  type="text" placeholder="Type IP Address" name="" id="">
+               <form>
+                <button name="forwardBtn"type="submit"class="float-left submit-button">Analyse Data</button>
+            </form>
+                <form action="home.html">
+                    <label for="myfile">Select files:</label>
+                    <input type="file" id="myfile" name="myfile" multiple><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </header>
+    </main>
+</body>
+
+</html>

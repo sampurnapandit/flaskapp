@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Team {
+  background-color: #1CD6CE;
+  text-align: center;
+  height: 50px;
+  padding-top: 5px 0 5px 0;
+}
+
+
+.IP-address {
+
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+
+
+}
+
+input[type=text] {
+  width: 20%;
+  padding: 5px 5px;
+  margin: 8px 0;
+}
+
+button {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 5px;
+  letter-spacing: 0.5px;
+  color: white;
+  background-color: #2791cf;
+  border-radius: 0 50px 50px 0;
+
+}
+
+button:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #131324;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-size: 20px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: rgb(141, 21, 232);
+}

@@ -1,0 +1,56 @@
+.content {
+    background: rgb(202, 196, 196);
+}
+
+.home {
+    flex: 3;
+    margin-left: 5%;
+}
+
+.wrapper {
+    padding: 15px;
+    display: flex;
+    background-color:rgba(2, 4, 0, 0.2);;
+}
+
+.add {
+    flex: 3;
+}
+
+.rep {
+    flex: 3;
+}
+
+.att {
+    flex: 3;
+}
+.container {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.container-fluid {
+    background-color:#2A82D9;;
+    line-height: 50px;
+   
+}
+.wrap{
+    justify-content: space-evenly;
+    background-color:rgba(32, 166, 106, 0.33);
+    padding: 15px;
+}
+.link-primary{
+    flex: 1;
+   outline-color: black;
+   text-align: center;
+}
+.time1{
+    border: 1px solid black;
+    display: inline-flex
+    
+}
+.time2{
+    border: 1px solid black;
+    display: inline-flex
+   
+}
